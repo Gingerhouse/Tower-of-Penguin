@@ -24,6 +24,7 @@
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":0,},
     {"id":{"name":"Win","path":"rooms/Win/Win.yy",},"order":2,},
     {"id":{"name":"obj_icicle","path":"objects/obj_icicle/obj_icicle.yy",},"order":8,},
+    {"id":{"name":"level2","path":"rooms/level2/level2.yy",},"order":4,},
     {"id":{"name":"spr_menu_screen","path":"sprites/spr_menu_screen/spr_menu_screen.yy",},"order":0,},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":0,},
   ],
@@ -43,6 +44,7 @@
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
     {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
+    {"roomId":{"name":"level2","path":"rooms/level2/level2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
