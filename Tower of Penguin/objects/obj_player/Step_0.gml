@@ -15,3 +15,6 @@ if keyboard_check_pressed(vk_down){
 	moves -= 1
 }
 
+if moves = 0{
+	
+}

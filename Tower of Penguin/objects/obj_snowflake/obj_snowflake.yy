@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_snowflake",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_snowflake",
+    "path": "sprites/spr_snowflake/spr_snowflake.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

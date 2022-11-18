@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_heat",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_heat",
+    "path": "sprites/spr_heat/spr_heat.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
