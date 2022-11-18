@@ -31,6 +31,7 @@
     {"id":{"name":"spr_info","path":"sprites/spr_info/spr_info.yy",},"order":13,},
     {"id":{"name":"obj_panel","path":"objects/obj_panel/obj_panel.yy",},"order":4,},
     {"id":{"name":"spr_snowflake","path":"sprites/spr_snowflake/spr_snowflake.yy",},"order":10,},
+    {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},"order":14,},
     {"id":{"name":"obj_heat","path":"objects/obj_heat/obj_heat.yy",},"order":6,},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":0,},
     {"id":{"name":"spr_heat","path":"sprites/spr_heat/spr_heat.yy",},"order":6,},
@@ -53,9 +54,9 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"roomId":{"name":"level2","path":"rooms/level2/level2.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
     {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
-    {"roomId":{"name":"level2","path":"rooms/level2/level2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

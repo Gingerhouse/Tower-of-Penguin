@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_info",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_info",
+    "path": "sprites/spr_info/spr_info.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
