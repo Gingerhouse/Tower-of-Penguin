@@ -6,7 +6,6 @@
      Cindy Li - Artist
      Rachel Teska - Producer
  
-# Game Name: Tower of Penguin
 # Instructions:
      Use the arrow keys to navigate menus and to move the penguin in any cardinal direction.
      Collect all of the sunflowers to win the game
