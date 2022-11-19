@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_panel",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_panel",
+    "path": "sprites/spr_panel/spr_panel.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
