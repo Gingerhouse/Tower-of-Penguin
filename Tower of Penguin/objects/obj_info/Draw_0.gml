@@ -9,6 +9,9 @@ draw_text(border+100, border, obj_player.moves)
 
 
 draw_sprite(spr_heat, 1, border, border+50)
-draw_text(border+60, border+70, obj_player.heat)
+draw_text(border+70, border+70, obj_player.heat)
+
+draw_sprite(spr_fish, 1, border, border+100)
+draw_text(border+70, border+120, health)
 
 
