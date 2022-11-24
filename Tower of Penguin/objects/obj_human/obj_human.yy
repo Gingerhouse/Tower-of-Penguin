@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_human",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_human",
+    "path": "sprites/spr_human/spr_human.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

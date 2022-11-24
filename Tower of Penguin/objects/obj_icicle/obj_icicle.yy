@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_icicle",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_icicle",
+    "path": "sprites/spr_icicle/spr_icicle.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

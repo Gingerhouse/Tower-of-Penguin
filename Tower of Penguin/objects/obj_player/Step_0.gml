@@ -1,22 +1,22 @@
-if (keyboard_check_pressed(vk_left) and !instance_place(x - 68, y, obj_block) and !(instance_place(x - 68, y, obj_door) and heat = 0)){
-	x -= 68
+if (keyboard_check_pressed(vk_left) and !instance_place(x - grid_size, y, obj_block) and !(instance_place(x - grid_size, y, obj_door) and heat = 0)){
+	x -= grid_size
 	moves -= 1
 	sprite_index = spr_player_left
 	image_xscale = 1
 }
-if (keyboard_check_pressed(vk_right) and !instance_place(x + 68, y, obj_block) and !(instance_place(x + 68, y, obj_door) and heat = 0)){
-	x += 68
+if (keyboard_check_pressed(vk_right) and !instance_place(x + grid_size, y, obj_block) and !(instance_place(x + grid_size, y, obj_door) and heat = 0)){
+	x += grid_size
 	moves -= 1
 	sprite_index = spr_player_left
 	image_xscale = -1
 }
-if (keyboard_check_pressed(vk_up) and !instance_place(x, y - 68, obj_block) and !(instance_place(x, y - 68, obj_door) and heat = 0)){
-	y -= 68
+if (keyboard_check_pressed(vk_up) and !instance_place(x, y - grid_size, obj_block) and !(instance_place(x, y - grid_size, obj_door) and heat = 0)){
+	y -= grid_size
 	moves -= 1
 	sprite_index = spr_player_back
 }
-if (keyboard_check_pressed(vk_down) and !instance_place(x, y + 68, obj_block) and !(instance_place(x, y + 68, obj_door) and heat = 0)){
-	y += 68
+if (keyboard_check_pressed(vk_down) and !instance_place(x, y + grid_size, obj_block) and !(instance_place(x, y + grid_size, obj_door) and heat = 0)){
+	y += grid_size
 	moves -= 1
 	sprite_index = spr_player_front
 }

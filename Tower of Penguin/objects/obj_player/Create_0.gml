@@ -1,4 +1,4 @@
-moves = 20
+moves = 2000
 health = 100
 heat = 0
 panel = 0

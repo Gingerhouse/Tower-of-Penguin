@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_fish",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_fish",
+    "path": "sprites/spr_fish/spr_fish.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
