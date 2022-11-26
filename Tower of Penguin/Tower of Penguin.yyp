@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Tower of Penguin",
   "resources": [
+    {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},"order":2,},
     {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},"order":9,},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},"order":0,},
     {"id":{"name":"spr_player_front","path":"sprites/spr_player_front/spr_player_front.yy",},"order":7,},
@@ -22,6 +23,7 @@
     {"id":{"name":"obj_human_p","path":"objects/obj_human_p/obj_human_p.yy",},"order":10,},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":1,},
     {"id":{"name":"Lose","path":"rooms/Lose/Lose.yy",},"order":1,},
+    {"id":{"name":"level1_1","path":"rooms/level1_1/level1_1.yy",},"order":6,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":2,},
     {"id":{"name":"spr_back","path":"sprites/spr_back/spr_back.yy",},"order":3,},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},"order":5,},
@@ -58,6 +60,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"level1_1","path":"rooms/level1_1/level1_1.yy",},},
     {"roomId":{"name":"level1","path":"rooms/level1/level1.yy",},},
     {"roomId":{"name":"level2","path":"rooms/level2/level2.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
@@ -83,10 +86,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.8.1.37",
+    "IDEVersion": "2022.9.1.51",
   },
 }
