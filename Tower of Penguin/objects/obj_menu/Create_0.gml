@@ -1,4 +1,3 @@
-
 border = 8
 line_sep = 60
 

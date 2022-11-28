@@ -6,5 +6,7 @@ else{
 }
 
 if health <= 0 {
-	room_goto(3)
+	obj_controller.prev_room = room
+	global.game_over = true
+	room_goto(5)
 }

@@ -2,5 +2,5 @@ panel += 1
 
 // changes depending on goal
 if panel == goal{
-	room_goto(4)
+	room_goto(6)
 }
