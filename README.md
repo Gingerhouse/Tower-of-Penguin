@@ -12,4 +12,7 @@
      Beware: you have a set amount of moves. Each move reduces the tower's health. You can regain the tower's health by picking up snowflakes.
  
 # Cheat Codes:
-     None as of now.
+     Alt + M -> Increase Moves
+     Alt + P -> Increase Health
+     Alt + H -> Increase Heat Resource
+     Alt + K -> Sets moves to 1
