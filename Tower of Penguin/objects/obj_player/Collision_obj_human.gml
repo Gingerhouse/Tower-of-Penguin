@@ -6,7 +6,7 @@ else{
 }
 
 if health <= 0 {
-	obj_controller.prev_room = room
+	instance_destroy()
 	global.game_over = true
 	room_goto(4)
 }

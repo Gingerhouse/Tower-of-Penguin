@@ -3,5 +3,5 @@
 
 if global.game_over == true{
 	global.game_over = false
-	room_goto(prev_room)
+	room_goto(2)
 }

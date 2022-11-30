@@ -7,6 +7,6 @@ draw_set_font(fnt_menu)
 draw_set_halign(fa_center)
 draw_set_valign(fa_top)
 
-draw_text_ext(990, y+border, "You could not save your home as a sea of flames surrounds you. There must be something you could have done to save them all.", sep, 1500-border*2)
+draw_text_ext(980, y+border, "You have protected your brethren by driving out those brutes and in doing so have been crowned king, to assure your species survival.", sep, 1500-border*2)
 
-draw_text(990, y+border+170, "Press R to Restart")
+draw_text(980, y+border+150, "Press SPACEBAR to go to the menu.")

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_switch_room",
+  "name": "obj_portal",
   "spriteId": {
     "name": "spr_switch_room",
     "path": "sprites/spr_switch_room/spr_switch_room.yy",
