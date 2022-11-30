@@ -11,6 +11,7 @@ if selected < 0 selected = array_length(option)-1
 if keyboard_check_pressed(vk_enter){
 	switch(selected){
 	case 0:
+		obj_controller.backstory = true
 		room_goto_next()
 		break
 	case 1:

@@ -24,5 +24,5 @@ if (keyboard_check_pressed(vk_down) and !instance_place(x, y + grid_size, obj_bl
 if moves == 0 {
 	obj_controller.prev_room = room
 	global.game_over = true
-	room_goto(5)
+	room_goto(4)
 }
