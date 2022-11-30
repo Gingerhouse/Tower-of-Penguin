@@ -18,9 +18,6 @@ if keyboard_check_pressed(vk_enter){
 		room_goto(2)
 		break
 	case 2:
-		room_goto(3)
-		break
-	case 3:
 		game_end()
 		break
 	}	
