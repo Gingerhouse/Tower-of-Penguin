@@ -9,4 +9,5 @@ if room == 3{
 	room_goto(2)
 }
 
-
+x = 2256
+y = 144

@@ -8,5 +8,5 @@ else{
 if health <= 0 {
 	obj_controller.prev_room = room
 	global.game_over = true
-	room_goto(5)
+	room_goto(4)
 }
