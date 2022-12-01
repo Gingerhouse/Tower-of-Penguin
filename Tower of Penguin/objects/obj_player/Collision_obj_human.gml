@@ -2,6 +2,7 @@ if attack == false{
 	health -= 25
 }
 else{
+	health -= 10
 	instance_destroy(other)
 }
 
