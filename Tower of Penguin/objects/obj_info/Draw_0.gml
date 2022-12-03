@@ -21,3 +21,6 @@ if instance_exists(obj_player){
 	draw_text(border, border+300, "Y:")
 	draw_text(border+100, border+300, obj_player.y)
 }
+
+draw_text(border, border+400, "Room:")
+	draw_text(border+100, border+400, room)

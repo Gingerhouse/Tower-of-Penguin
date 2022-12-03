@@ -22,6 +22,19 @@ if (keyboard_check_pressed(vk_down) and !instance_place(x, y + grid_size, obj_bl
 }
 
 if moves == 0 {
+	
+	obj_controller.prev_room = 2
+	//reset room 2_1
+	room_goto(2)
+	room_persistent = false
+	room_restart()
+	
+	//reset room 2_2
+	room_goto_next()
+	room_persistent = false
+	room_restart()
+	
+	
 	instance_destroy()
 	global.game_over = true
 	room_goto(4)
