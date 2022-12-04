@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_portal",
   "spriteId": {
-    "name": "spr_switch_room",
-    "path": "sprites/spr_switch_room/spr_switch_room.yy",
+    "name": "spr_portal",
+    "path": "sprites/spr_portal/spr_portal.yy",
   },
   "solid": false,
   "visible": true,

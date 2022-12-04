@@ -7,18 +7,25 @@ draw_set_valign(fa_top)
 draw_set_color(#c1cfda)
 
 if instance_exists(obj_player){
-	draw_text(border, border, "Moves:"+ string(obj_player.moves))
+	draw_text(border, border, "Moves: "+ string(obj_player.moves))
 
-	draw_sprite(spr_heat, 1, border, border+50)
-	draw_text(border+70, border+70, obj_player.heat)
+	draw_sprite(spr_heat, 1, border+30, border+70)
+	draw_text(border+70, border+70,  ": "+string(obj_player.heat))
 
-	draw_sprite(spr_fish, 1, border, border+100)
-	draw_text(border+70, border+120, health)
-
-	draw_text(border, border+200, "X:"+string(obj_player.x))
-
-	draw_text(border, border+300, "Y:"+string(obj_player.y))
+	draw_sprite(spr_fish, 1, border+30, border+120)
+	draw_text(border+70, border+120, ": "+string(health))
 	
-	draw_sprite(spr_panel, 1, border, border+400)
-	draw_text(border+100, border+400, ": "+ string(obj_player.panel)+"/"+string(obj_player.goal))
+	draw_sprite(spr_panel, 1, border+30, border+170)
+	draw_text(border+70, border+170, ": "+ string(obj_player.panel)+"/"+string(obj_player.goal))
+	
+	if obj_player.attack == true{
+		draw_sprite(spr_icicle, 1, border+30, border+230)
+		draw_text(border+ 60, border+220, "(Obtained)")
+	}
+
+	draw_text(border, border+275, "X: "+string(obj_player.x))
+
+	draw_text(border, border+325, "Y: "+string(obj_player.y))
+	
+	
 }
