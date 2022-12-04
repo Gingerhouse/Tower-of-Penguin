@@ -1,10 +1,10 @@
 # Tower of Penguin
 # Team: Eternally Tired
 # Group Members:
-     Abel Villanueva - Programmer
-     Yuepei Yu (Nick) - Game Designer
      Cindy Li - Artist
      Rachel Teska - Producer
+     Abel Villanueva - Programmer
+     Yuepei Yu (Nick) - Game Designer
  
 # Instructions:
      Use the arrow keys to navigate menus and to move the penguin in any cardinal direction.
@@ -16,3 +16,6 @@
      Alt + P -> Increase Health
      Alt + H -> Increase Heat Resource
      Alt + K -> Sets moves to 1
+
+# Paths
+Due to the nature of the game, paths could not be more complex
