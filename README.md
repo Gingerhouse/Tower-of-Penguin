@@ -18,4 +18,4 @@
      Alt + K -> Sets moves to 1
 
 # Paths
-Due to the nature of the game paths could not be more complex
+Due to the nature of the game, paths could not be more complex
