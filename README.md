@@ -1,10 +1,10 @@
 # Tower of Penguin
 # Team: Eternally Tired
 # Group Members:
-     Abel Villanueva - Programmer
-     Yuepei Yu (Nick) - Game Designer
      Cindy Li - Artist
      Rachel Teska - Producer
+     Abel Villanueva - Programmer
+     Yuepei Yu (Nick) - Game Designer
  
 # Instructions:
      Use the arrow keys to navigate menus and to move the penguin in any cardinal direction.
