@@ -17,5 +17,5 @@
      Alt + H -> Increase Heat Resource
      Alt + K -> Sets moves to 1
 
-$ Paths
+# Paths
 Due to the nature of the game paths could not be more complex
