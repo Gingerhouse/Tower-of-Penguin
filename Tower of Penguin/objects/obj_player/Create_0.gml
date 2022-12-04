@@ -1,4 +1,4 @@
-health = 80
+health = hp
 heat = 0
 panel = 0
 attack = false
