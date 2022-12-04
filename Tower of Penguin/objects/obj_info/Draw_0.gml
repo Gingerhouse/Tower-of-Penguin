@@ -5,9 +5,7 @@ draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 
 if instance_exists(obj_player){
-	draw_text(border, border, "Moves:")
-	draw_text(border+100, border, obj_player.moves)
-
+	draw_text(border, border, "Moves:"+ string(obj_player.moves))
 
 	draw_sprite(spr_heat, 1, border, border+50)
 	draw_text(border+70, border+70, obj_player.heat)
@@ -15,12 +13,12 @@ if instance_exists(obj_player){
 	draw_sprite(spr_fish, 1, border, border+100)
 	draw_text(border+70, border+120, health)
 
-	draw_text(border, border+200, "X:")
-	draw_text(border+100, border+200, obj_player.x)
+	draw_text(border, border+200, "X:"+string(obj_player.x))
 
-	draw_text(border, border+300, "Y:")
-	draw_text(border+100, border+300, obj_player.y)
+	draw_text(border, border+300, "Y:"+string(obj_player.y))
+	
+	draw_sprite(spr_panel, 1, border, border+400)
+	draw_text(border+100, border+400, ": "+ string(obj_player.panel)+"/"+string(obj_player.goal))
 }
 
-draw_text(border, border+400, "Room:")
-	draw_text(border+100, border+400, room)
+draw_text(border, border+500, "Room:"+string(room))

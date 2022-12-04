@@ -2,12 +2,12 @@
 // You can write your code in this editor
 room_persistent = true
 
-if room == 2{
-	room_goto(3)
+if room == 3{
+	room_goto(4)
 	
 }
-if room == 3{
-	room_goto(2)
+if room == 4{
+	room_goto(3)
 }
 
 if sprite_index == spr_player_back{

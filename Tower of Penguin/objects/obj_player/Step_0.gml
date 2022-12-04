@@ -21,21 +21,23 @@ if (keyboard_check_pressed(vk_down) and !instance_place(x, y + grid_size, obj_bl
 	sprite_index = spr_player_front
 }
 
-if moves == 0 {
+if moves <= 0 {
+	if room == 2{
+		obj_controller.prev_room = 2
+		room_persistent = false
+		room_restart()
+	}
 	
-	obj_controller.prev_room = 2
-	//reset room 2_1
-	room_goto(2)
-	room_persistent = false
-	room_restart()
-	
-	//reset room 2_2
-	room_goto_next()
-	room_persistent = false
-	room_restart()
+	if room == 3 or room == 4{
+		obj_controller.prev_room = 3
+		//reset room 2_1
+		room_goto(3)
+		room_persistent = false
+		room_restart()
+	}
 	
 	
 	instance_destroy()
 	global.game_over = true
-	room_goto(4)
+	room_goto(5)
 }
