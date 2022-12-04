@@ -16,9 +16,13 @@ if keyboard_check_pressed(vk_enter){
 		break
 	case 1:
 		room_goto(2)
+		audio_stop_sound(snd_mainmenu)
+		audio_play_sound(snd_gameplay, 10, true)
 		break
 	case 2:
 		room_goto(3)
+		audio_stop_sound(snd_mainmenu)
+		audio_play_sound(snd_gameplay, 10, true)
 		break
 	case 3:
 		game_end()
