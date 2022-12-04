@@ -6,6 +6,7 @@ draw_sprite_ext(sprite_index, image_index, x, y , sprite_width/256, sprite_heigh
 draw_set_font(fnt_menu)
 draw_set_halign(fa_center)
 draw_set_valign(fa_top)
+draw_set_color(#142c41)
 
 draw_text_ext(686, y+border, "As the world keeps turning, humans have kept global warming increasing throughout the years changing the ecosystem. Your breaking point was when the savages decided to invade your home through... condos? Who's bright idea was it to place condos in the middle of the Arctic? Anyway, you decide to fight back in order to save your sinking home.", sep, 1150-border*2)
 

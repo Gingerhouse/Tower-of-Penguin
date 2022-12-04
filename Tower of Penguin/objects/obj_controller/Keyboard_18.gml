@@ -7,14 +7,15 @@ if instance_exists(obj_player){
 	}
 
 	if keyboard_check_pressed(ord("P")){
-		health += 50
+		health += 100
 	}
 
 	if keyboard_check_pressed(ord("M")){
-		obj_player.moves += 10
+		obj_player.moves += 30
 	}
 
 	if keyboard_check_pressed(ord("K")){
 		obj_player.moves = 1
 	}
+	
 }

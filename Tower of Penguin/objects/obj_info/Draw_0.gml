@@ -4,6 +4,8 @@ draw_set_font(fnt_info)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 
+draw_set_color(#c1cfda)
+
 if instance_exists(obj_player){
 	draw_text(border, border, "Moves:"+ string(obj_player.moves))
 
@@ -20,5 +22,3 @@ if instance_exists(obj_player){
 	draw_sprite(spr_panel, 1, border, border+400)
 	draw_text(border+100, border+400, ": "+ string(obj_player.panel)+"/"+string(obj_player.goal))
 }
-
-draw_text(border, border+500, "Room:"+string(room))
