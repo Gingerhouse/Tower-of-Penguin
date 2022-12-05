@@ -1,0 +1,19 @@
+Images/Sprites:
+
+Round blue plasma illustration by N/A Author (CC0 - pngwing.com)
+All spritework by Cindy Li
+Start screen, win screen and lose screen by Abel Villanueva Perez 
+	using creator.nightcafe.studio
+Tileset by Rachel Teska
+
+
+
+Sounds/Music: 
+Footstep 1 by Folamh3 (CC0 - pixabay.com)
+unsheath sword by Qat (CC0 - pixabay.com)
+Clean fast Swoosh.aiff by Danjocross (CC0 - pixabay.com)
+ding2 by suzenako (CC0 - pixabay.com)
+Medieval Fanfare by gertraut hecher (CC0 - pixabay.com)
+Fail Jingle (stereo mix) by unfa (CC0 - pixabay.com)
+Tower of Penguin Main Menu by Rachel Teska (2022)
+Tower of Penguin Gameplay by Rachel Teska (2022)
